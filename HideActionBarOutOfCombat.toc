@@ -1,0 +1,7 @@
+## Interface: 120000, 120001
+## Title: Hide Action Bar Out Of Combat
+## Notes: Hides Action Bar 1 outside of combat.
+## Author: Kara of Kel'thuzad US
+## Version: 1.0
+
+HideActionBarOutOfCombat.lua
