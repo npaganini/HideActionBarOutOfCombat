@@ -2,7 +2,7 @@
 ## Title: Hide Action Bar Out Of Combat
 ## Notes: Hides Action Bar 1 outside of combat.
 ## Author: Kara of Kel'thuzad US
-## IconTexture: Interface\Addons\HideActionBarOutOfCombat\Texture\miniminus
+## IconTexture: Interface\Addons\HideActionBarOutOfCombat\Texture\icon-texture
 ## Version: 1.0
 
 HideActionBarOutOfCombat.lua
