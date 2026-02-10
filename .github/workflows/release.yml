@@ -1,0 +1,24 @@
+name: HideActionBarOutOfCombat
+
+# triggers when pushing a tag
+on:
+  push:
+    tags:
+      - '**'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # gets entire git history, needed for automatic changelogs
+
+      - name: Package and Release
+        uses: BigWigsMods/packager@master
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          # for github releases, this secret is automatically provided to the workflow
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
