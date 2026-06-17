@@ -1,4 +1,4 @@
-## Interface: 120005
+## Interface: 120007
 ## Title: Hide Action Bar Out Of Combat
 ## Notes: Hides Action Bar 1 outside of combat.
 ## Author: Kara of Kel'thuzad US
